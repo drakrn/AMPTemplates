@@ -1,0 +1,12 @@
+[
+    {
+        "UpdateStageName": "Pull Nginx Docker Image",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceArgs": "pull nginx:latest",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    }
+]

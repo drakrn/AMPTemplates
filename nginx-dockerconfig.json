@@ -1,0 +1,36 @@
+[
+    {
+        "DisplayName": "HTTP Port",
+        "Category": "Networking",
+        "Description": "Port on the host machine to bind to the Nginx container's port 80.",
+        "Keywords": "http,port",
+        "FieldName": "http_port",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "http_port",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "8080",
+        "Placeholder": "8080",
+        "Suffix": "Port",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Web Root Directory",
+        "Category": "Storage",
+        "Description": "Directory on the host that will be mounted as /usr/share/nginx/html inside the container.",
+        "Keywords": "web,root,directory",
+        "FieldName": "web_root",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "web_root",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "./www",
+        "Placeholder": "./www",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    }
+]
